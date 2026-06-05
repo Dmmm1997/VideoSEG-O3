@@ -50,7 +50,7 @@ multi-turn video segmentation.
 
 ## 📢 News
 
-- `2026.06.05` 🔥 The [**training code**](docs/TRAIN.md), [**evaluation code**](docs/EVAL.md), and [**paper PDF**](docs/videoseg-o3.pdf) are now available. We have also released the RL checkpoints for [**VideoSEG-O3-2B**](https://modelscope.cn/models/dmmm997/VideoSEG-O3-2B-RL) and [**VideoSEG-O3-4B**](https://modelscope.cn/models/dmmm997/VideoSEG-O3-4B-RL), together with the [**VTS-CoT annotations**](https://modelscope.cn/datasets/dmmm997/VideoSEG-O3) and [**RL training data**](https://modelscope.cn/datasets/dmmm997/VideoSEG-O3).
+- `2026.06.05` 🔥 The [**training code**](docs/TRAIN.md), [**evaluation code**](docs/EVAL.md), and [**paper**](docs/videoseg-o3.pdf) are now available. We have also released the RL checkpoints for [**VideoSEG-O3-2B**](https://modelscope.cn/models/dmmm997/VideoSEG-O3-2B-RL) and [**VideoSEG-O3-4B**](https://modelscope.cn/models/dmmm997/VideoSEG-O3-4B-RL), together with the [**VTS-CoT**](https://modelscope.cn/datasets/dmmm997/VideoSEG-O3) and [**RL training data**](https://modelscope.cn/datasets/dmmm997/VideoSEG-O3).
 - `2026.04.30` 🎉 **VideoSEG-O3** has been accepted by [**ICML 2026**](https://icml.cc/Conferences/2026).
 
 ## 🏆 Main Results
