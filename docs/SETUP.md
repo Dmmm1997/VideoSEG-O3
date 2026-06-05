@@ -16,9 +16,7 @@ pip install -U pip
 pip install -r requirement.txt
 ```
 
-The pinned requirements are taken from the working `dm_rl` environment with
-Python 3.10 and CUDA 12.4. If you use a different CUDA version, install the
-matching PyTorch build first and then install the remaining packages.
+The pinned requirements are taken with Python 3.10 and CUDA 12.4. If you use a different CUDA version, install the matching PyTorch build first and then install the remaining packages.
 
 ```bash
 # Optional: install FlashAttention after PyTorch is available.

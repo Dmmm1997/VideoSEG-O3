@@ -1,7 +1,5 @@
 # Evaluation
 
-Run evaluation commands from the repository root.
-
 ## Main Evaluation Launcher
 
 `evaluation.sh` is the main evaluation entry point. Update `MODEL_DIRS` in the
@@ -9,19 +7,6 @@ script to point to the checkpoint you want to evaluate, then run:
 
 ```bash
 bash evaluation.sh
-```
-
-By default, the script evaluates each model with:
-
-```text
-projects/sa2va/evaluation/dist_test.sh
-projects/sa2va/evaluation/sa2va_eval_ref_vos_cot_v2.py
-```
-
-Set `NUM_GPUS` if you want to override the default GPU count:
-
-```bash
-NUM_GPUS=8 bash evaluation.sh
 ```
 
 ## Manual Evaluation
