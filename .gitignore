@@ -1,0 +1,97 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor and local machine settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local Python environments
+.env
+.env.*
+.venv/
+venv/
+env/
+ENV/
+
+# Dataset directories
+/data/
+/datasets/
+
+# Pretrained models and downloaded checkpoints
+/pretrained/
+/checkpoints/
+/checkpoint/
+/hf_model/
+/hf_model_*/
+
+# Training outputs
+/work_dirs/
+/work_dirs_*/
+/outputs/
+/output/
+/results/
+/runs/
+/logs/
+/tensorboard/
+/wandb/
+
+# Slurm and runtime logs
+slurm-*.out
+*.log
+*.out
+*.err
+
+# Model weight files
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+
+# Large dataset/archive files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.rar
+*.7z
+
+# Generated media and temporary evaluation dumps
+*.mp4
+*.avi
+*.mov
+*.mkv
+tmp/
+temp/
+
+data
+pretrained
+checkpoints
+work_dirs
+work_dirs_RL
+third_parts/sam3/*
+
+# Local release/upload helpers
+/model_scope_upload.sh
+
+# Analysis-only evaluation variants
+/tools/eval/*_sample.py
+/tools/plot/
