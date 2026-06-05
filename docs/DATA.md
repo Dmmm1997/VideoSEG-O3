@@ -85,13 +85,6 @@ mkdir -p data
 # Keep the folder names consistent with the layout above.
 ```
 
-The SA-V video dataset is not included in Sa2VA training archives. Download it
-from the official Segment Anything Video source and place it at:
-
-```text
-data/video_datas/sam_v_full/
-```
-
 ## VTS-CoT Annotations
 
 Download the released annotation files and place the VTS-CoT files under:
